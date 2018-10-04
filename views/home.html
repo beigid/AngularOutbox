@@ -1,4 +1,4 @@
-<div class="email" ng-repeat="email in emails">
+<div class="email" ng-repeat="email in emails" ng-click="unreadCheck()">
     <a href="#/outbox/{{$index}}">
       <span class="from">{{ email.from }}</span><span class="subject">{{ email.subject }}</span><span class="date">{{ email.datetime | date }}</span>
       <p><button class="btn-yellow btn">{{email.unread === true ? 'unread' : 'read' }}</button></p></a>
