@@ -5,7 +5,7 @@ body, html {
 }
 
 .header {
-    background: #4285f4;
+    background: #ffc619b5;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
 }
@@ -14,6 +14,7 @@ body, html {
     margin: 20px auto;   
     padding: 20px 0; 
     text-align: center;
+    width:18%;
 }
 
 .header ul {
